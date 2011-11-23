@@ -5,7 +5,7 @@
   *display:inline;
   
   padding: 0px .25em 0px .15em;
-  border:1px solid #647392;
+  border:1px solid #8993ae;
   
   /* let's add some colors */
   background: #8993ae;
@@ -26,7 +26,7 @@
 }
 
 .tab:before {
-  border-color: transparent #fff #647392 transparent;
+  border-color: transparent #fff #8993ae transparent;
 }
 
 .tab:after {
