@@ -3,8 +3,13 @@
   display: inline-block;
   *zoom:1;
   *display:inline;
+  
   padding: 0px .15em 0px .25em;
   border:1px solid #dbdbdb;
+
+  /* let's add some colors */
+  text-shadow: 4px 4px 1px #d5dcf1;
+  box-shadow: 5px 7px 1px #d5dcf1;
 }
 
 .tab-rtl:before, .tab-rtl:after {
