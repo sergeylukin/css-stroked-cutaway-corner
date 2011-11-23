@@ -1,8 +1,9 @@
 .tab {
-  float: left;
   position: relative;
-  display: inline;
-  padding: 5px 30px 5px 15px;
+  display: inline-block;
+  *zoom:1;
+  *display:inline;
+  padding: 0px .25em 0px .15em;
   border:1px solid #dbdbdb;
 }
 
@@ -13,7 +14,7 @@
   top: -1px;
   right: -1px;
   border-style: solid;
-  border-width: 0 30px 30px 0;
+  border-width: 0 .25em .25em 0;
 }
 
 .tab:before {
