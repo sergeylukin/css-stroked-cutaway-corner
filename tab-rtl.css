@@ -3,7 +3,7 @@
   display: inline-block;
   *zoom:1;
   *display:inline;
-  padding: 0px 0.15em 0px 0.25em;
+  padding: 0px .15em 0px .25em;
   border:1px solid #dbdbdb;
 }
 
