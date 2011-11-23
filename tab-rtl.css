@@ -3,11 +3,12 @@
   display: inline-block;
   *zoom:1;
   *display:inline;
-  
+
   padding: 0px .15em 0px .25em;
   border:1px solid #dbdbdb;
 
   /* let's add some colors */
+  color: #606e94;
   text-shadow: 4px 4px 1px #d5dcf1;
   -webkit-box-shadow: 5px 7px 1px #d5dcf1;
   -moz-box-shadow: 5px 7px 1px #d5dcf1;
@@ -18,18 +19,34 @@
   content: "";
   display: block;
   position: absolute;
-  top: -1px;
-  left: -1px;
   border-style: solid;
   border-width: 0 0 .25em .25em;
+  border-color: transparent;
 }
 
 .tab-rtl:before {
-  border-color: transparent transparent #dbdbdb #fff;
+  top: -1px;
+  left: -1px;
+  border-bottom-color: #dbdbdb;
+  border-left-color: #fff;
 }
 
 .tab-rtl:after {
   top: -.98px;
   left:-.1px;
-  border-color: transparent transparent #fff transparent;
+  border-bottom-color: #fff;
+}
+
+/* Let's add some Hover effect */
+.tab-rtl:hover {
+  background: #8993ae;
+  border-color: #8993ae;
+}
+.tab-rtl:hover:before {
+  /* should have same color as tab border */
+  border-bottom-color: #8993ae;
+}
+.tab-rtl:hover:after {
+  /* should have same color as tab background */
+  border-bottom-color: #8993ae;
 }

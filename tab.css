@@ -3,11 +3,12 @@
   display: inline-block;
   *zoom:1;
   *display:inline;
-  
+
   padding: 0px .25em 0px .15em;
   border:1px solid #8993ae;
   
   /* let's add some colors */
+  color: #606e94;
   background: #8993ae;
   text-shadow: -4px 4px 1px #d5dcf1;
   -webkit-box-shadow: -5px 7px 1px #d5dcf1;
@@ -19,18 +20,34 @@
   content: "";
   display: block;
   position: absolute;
-  top: -1px;
-  right: -1px;
   border-style: solid;
   border-width: 0 .25em .25em 0;
+  border-color: transparent;
 }
 
 .tab:before {
-  border-color: transparent #fff #8993ae transparent;
+  top: -1px;
+  right: -1px;
+  border-right-color: #fff;
 }
 
 .tab:after {
   top: -.1px;
   right:-.9px;
-  border-color: transparent transparent #8993ae transparent;
+  border-bottom-color: #8993ae;
+}
+
+
+/* Let's add some Hover effect */
+.tab:hover {
+  background: #fff;
+  border-color: #dbdbdb;
+}
+.tab:hover:before {
+  /* should have same color as tab border */
+  border-bottom-color: #dbdbdb;
+}
+.tab:hover:after {
+  /* should have same color as tab background */
+  border-bottom-color: #fff;
 }
