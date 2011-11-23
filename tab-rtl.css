@@ -1,0 +1,27 @@
+.tab-rtl {
+  float: right;
+  position: relative;
+  display: inline;
+  padding: 5px 15px 5px 30px;
+  border:1px solid #dbdbdb;
+}
+
+.tab-rtl:before, .tab-rtl:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-style: solid;
+  border-width: 0 0 30px 30px;
+}
+
+.tab-rtl:before {
+  border-color: transparent transparent #dbdbdb #fff;
+}
+
+.tab-rtl:after {
+  top: -.98px;
+  left:-.1px;
+  border-color: transparent transparent #fff transparent;
+}
