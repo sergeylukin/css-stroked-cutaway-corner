@@ -1,0 +1,48 @@
+/* =============================================================================
+   FTab default styles
+   ========================================================================== */
+.ftab {
+  /* positioning */
+  position: relative;
+  display: inline-block;
+  *zoom:1;
+  *display:inline;
+
+  /* default border and padding */
+  padding: 0px .30em 0px .15em;
+  border-width: 1px;
+  border-style: solid;
+  
+  /* default colors */
+  color: #000;
+  border-color: #dbdbdb;
+  background: #fff;
+}
+
+/* positioning for pseudo elements */
+.ftab:before,
+.ftab:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 0 .25em .25em 0;
+  width: .1em;
+  /* should have same color as parent's background */
+  border-color:#fff;
+}
+
+.ftab:before {
+  top: -1px;
+  right: -1px;
+  /* should have same color as tab's border */
+  border-bottom-color: #dbdbdb;
+}
+
+.ftab:after {
+  top: -.1px;
+  right:-.9px;
+  border-color: transparent;
+  /* should have same color as tab's background */
+  border-bottom-color: #fff;
+}

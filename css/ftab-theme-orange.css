@@ -1,0 +1,59 @@
+/* =============================================================================
+   ORANGE STYLE
+   ========================================================================== */
+/* Regular state */
+.ftab[data-ftab-theme=orange] {
+  color: #f2f2f2;
+  border-color: transparent;
+  background: #f06529;
+  -webkit-box-shadow: -5px 7px 1px #e34c26;
+  -moz-box-shadow: -5px 7px 1px #e34c26;
+  box-shadow: -5px 7px 1px #e34c26;
+}
+.ftab[data-ftab-theme=orange]:before {
+  /* should have same color as tab's border */
+  border-bottom-color: transparent;
+  /* should have same color as parent's background */
+  border-right-color: #fff;
+}
+
+.ftab[data-ftab-theme=orange]:after {
+  /* should have same color as tab's background */
+  border-bottom-color: #f06529;
+}
+/* Hover state */
+.ftab[data-ftab-theme=orange]:hover {
+  background: #0092bf;
+  border-color: #0092bf;
+}
+.ftab[data-ftab-theme=orange]:hover:before {
+  /* should have same color as tab border */
+  border-bottom-color: #0092bf;
+}
+.ftab[data-ftab-theme=orange]:hover:after {
+  /* should have same color as tab background */
+  border-bottom-color: #0092bf;
+}
+/* OnClick state */
+.ftab[data-ftab-theme=orange]:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  /* Top and Right should be equal to the box-shadow of regular state*/
+  top:7px;
+  right:5px;
+}
+
+/* RTL */
+.ftab[data-ftab-theme=orange][data-ftab-dir=rtl] {
+  -webkit-box-shadow: 5px 7px 1px #e34c26;
+  -moz-box-shadow: 5px 7px 1px #e34c26;
+  box-shadow: 5px 7px 1px #e34c26;
+}
+.ftab[data-ftab-theme=orange][data-ftab-dir=rtl]:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  top:7px;
+  left:5px;
+}
