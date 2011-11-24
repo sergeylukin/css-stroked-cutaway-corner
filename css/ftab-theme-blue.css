@@ -2,7 +2,7 @@
    BLUE STYLE
    ========================================================================== */
 /* Regular state */
-.ftab[data-ftab-theme=blue] {
+.ftab.blue {
   color: #606e94;
   border-color: #dbdbdb;
   background: #fff;
@@ -11,32 +11,32 @@
   -moz-box-shadow: -5px 7px 1px #d5dcf1;
   box-shadow: -5px 7px 1px #d5dcf1;
 }
-.ftab[data-ftab-theme=blue]:before {
+.ftab.blue:before {
   /* should have same color as tab's border */
   border-bottom-color: #dbdbdb;
   /* should have same color as parent's background */
   border-right-color: #fff;
 }
 
-.ftab[data-ftab-theme=blue]:after {
+.ftab.blue:after {
   /* should have same color as tab's background */
   border-bottom-color: #fff;
 }
 /* Hover state */
-.ftab[data-ftab-theme=blue]:hover {
+.ftab.blue:hover {
   background: #afb8d3;
   border-color: #90a5b8;
 }
-.ftab[data-ftab-theme=blue]:hover:before {
+.ftab.blue:hover:before {
   /* should have same color as tab border */
   border-bottom-color: #90a5b8;
 }
-.ftab[data-ftab-theme=blue]:hover:after {
+.ftab.blue:hover:after {
   /* should have same color as tab background */
   border-bottom-color: #afb8d3;
 }
 /* OnClick state */
-.ftab[data-ftab-theme=blue]:active {
+.ftab.blue:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -46,13 +46,13 @@
 }
 
 /* RTL */
-.ftab[data-ftab-theme=blue][data-ftab-dir=rtl] {
+.ftab.blue.rtl {
   text-shadow: .031em .038em 1px #d5dcf1;
   -webkit-box-shadow: 5px 7px 1px #d5dcf1;
   -moz-box-shadow: 5px 7px 1px #d5dcf1;
   box-shadow: 5px 7px 1px #d5dcf1;
 }
-.ftab[data-ftab-theme=blue][data-ftab-dir=rtl]:active {
+.ftab.blue.rtl:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
