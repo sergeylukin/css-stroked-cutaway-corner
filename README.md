@@ -1,13 +1,31 @@
 Demo
-====================
-http://sergeylukin.github.com/css-folder-tabs
-Author
-====================
-Sergey Lukin
 --------------------
-http://github.com/sergeylukin
+http://sergeylukin.github.com/css-folder-tabs
+
+Usage
+--------------------
+As easy as:
+``` html
+<link rel="stylesheet/less" href="css/ftab.css">
+...
+<a href="#" class="ftab">My tab</a>
+```
+RTL version:
+``` html
+<link rel="stylesheet/less" href="css/ftab.css">
+<link rel="stylesheet/less" href="css/ftab-rtl.css">
+...
+<a href="#" class="ftab rtl">My tab</a>
+```
+
+Author
+--------------------
+**Sergey Lukin**
++ http://github.com/sergey_lukin
++ http://github.com/sergeylukin
+
 License
-====================
+--------------------
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
