@@ -6,14 +6,14 @@ http://sergeylukin.github.com/css-folder-tabs
 Usage
 --------------------
 
-As easy as:
+LTR tab in default look:
 
 ``` html
 <link rel="stylesheet" href="css/ftab.css">
 ...
 <a href="#" class="ftab">My tab</a>
 ```
-RTL version:
+RTL tab in default look:
 
 ``` html
 <link rel="stylesheet" href="css/ftab.css">
@@ -21,6 +21,18 @@ RTL version:
 ...
 <a href="#" class="ftab rtl">My tab</a>
 ```
+
+RTL tab in "Blue" theme:
+
+``` html
+<link rel="stylesheet" href="css/ftab.css">
+<link rel="stylesheet" href="css/ftab-rtl.css">
+<link rel="stylesheet" href="css/ftab-theme-blue.css">
+...
+<a href="#" class="ftab blue rtl">My tab</a>
+```
+
+etc.
 
 Author
 --------------------
