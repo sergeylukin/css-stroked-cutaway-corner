@@ -27,7 +27,7 @@ Author
 
 **Sergey Lukin**
 
-+ http://github.com/sergey_lukin
++ http://twitter.com/sergey_lukin
 + http://github.com/sergeylukin
 
 License
