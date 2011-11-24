@@ -9,15 +9,15 @@ Usage
 As easy as:
 
 ``` html
-<link rel="stylesheet/less" href="css/ftab.css">
+<link rel="stylesheet" href="css/ftab.css">
 ...
 <a href="#" class="ftab">My tab</a>
 ```
 RTL version:
 
 ``` html
-<link rel="stylesheet/less" href="css/ftab.css">
-<link rel="stylesheet/less" href="css/ftab-rtl.css">
+<link rel="stylesheet" href="css/ftab.css">
+<link rel="stylesheet" href="css/ftab-rtl.css">
 ...
 <a href="#" class="ftab rtl">My tab</a>
 ```
