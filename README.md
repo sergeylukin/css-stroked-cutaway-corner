@@ -1,7 +1,7 @@
 Demo
 ====================
 
-http://sergeylukin.github.com/css-folder-tabs
+http://sergeylukin.com/css-folder-tabs
 
 Usage
 --------------------
