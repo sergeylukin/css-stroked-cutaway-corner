@@ -16,6 +16,6 @@
 }
 
 .ftab.rtl:after {
-  top: 0; // -.98px
+  top:0; /* -.98px*/
   left:-.1px;
 }
