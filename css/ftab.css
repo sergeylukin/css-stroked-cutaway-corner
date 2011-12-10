@@ -12,6 +12,7 @@
   padding: 0px .30em 0px .15em;
   border-width: 1px;
   border-style: solid;
+  outline: none;
   
   /* default colors */
   color: #000;
