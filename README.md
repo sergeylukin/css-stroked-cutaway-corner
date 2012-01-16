@@ -1,7 +1,7 @@
 Demo
 ====================
 
-http://sergeylukin.com/css-folder-tabs
+http://sergeylukin.com/css-stroked-cutaway-corner
 
 Usage
 --------------------
