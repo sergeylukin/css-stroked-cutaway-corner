@@ -1,7 +1,7 @@
 /* =============================================================================
    FTab default styles
    ========================================================================== */
-.ftab {
+.cctab {
   /* positioning */
   position: relative;
   display: inline-block;
@@ -21,8 +21,8 @@
 }
 
 /* positioning for pseudo elements */
-.ftab:before,
-.ftab:after {
+.cctab:before,
+.cctab:after {
   content: "";
   display: block;
   position: absolute;
@@ -33,14 +33,14 @@
   border-color:#fff;
 }
 
-.ftab:before {
+.cctab:before {
   top: -1px;
   right: -1px;
   /* should have same color as tab's border */
   border-bottom-color: #dbdbdb;
 }
 
-.ftab:after {
+.cctab:after {
   top: -.1px;
   right:-.9px;
   border-color: transparent;

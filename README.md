@@ -9,27 +9,27 @@ Usage
 LTR tab in default theme:
 
 ``` html
-<link rel="stylesheet" href="css/ftab.css">
+<link rel="stylesheet" href="css/cctab.css">
 ...
-<a href="#" class="ftab">My tab</a>
+<a href="#" class="cctab">My tab</a>
 ```
 RTL tab, default theme:
 
 ``` html
-<link rel="stylesheet" href="css/ftab.css">
-<link rel="stylesheet" href="css/ftab-rtl.css">
+<link rel="stylesheet" href="css/cctab.css">
+<link rel="stylesheet" href="css/cctab-rtl.css">
 ...
-<a href="#" class="ftab rtl">My tab</a>
+<a href="#" class="cctab rtl">My tab</a>
 ```
 
 RTL tab, "Blue" theme:
 
 ``` html
-<link rel="stylesheet" href="css/ftab.css">
-<link rel="stylesheet" href="css/ftab-rtl.css">
-<link rel="stylesheet" href="css/ftab-theme-blue.css">
+<link rel="stylesheet" href="css/cctab.css">
+<link rel="stylesheet" href="css/cctab-rtl.css">
+<link rel="stylesheet" href="css/cctab-theme-blue.css">
 ...
-<a href="#" class="ftab blue rtl">My tab</a>
+<a href="#" class="cctab blue rtl">My tab</a>
 ```
 
 etc.

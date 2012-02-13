@@ -2,7 +2,7 @@
    BLUE STYLE
    ========================================================================== */
 /* Regular state */
-.ftab.blue {
+.cctab.blue {
   color: #606e94;
   border-color: #dbdbdb;
   background: #fff;
@@ -11,32 +11,32 @@
   -moz-box-shadow: -5px 7px 1px #d5dcf1;
   box-shadow: -5px 7px 1px #d5dcf1;
 }
-.ftab.blue:before {
+.cctab.blue:before {
   /* should have same color as tab's border */
   border-bottom-color: #dbdbdb;
   /* should have same color as parent's background */
   border-right-color: #fff;
 }
 
-.ftab.blue:after {
+.cctab.blue:after {
   /* should have same color as tab's background */
   border-bottom-color: #fff;
 }
 /* Hover state */
-.ftab.blue:hover {
+.cctab.blue:hover {
   background: #afb8d3;
   border-color: #90a5b8;
 }
-.ftab.blue:hover:before {
+.cctab.blue:hover:before {
   /* should have same color as tab border */
   border-bottom-color: #90a5b8;
 }
-.ftab.blue:hover:after {
+.cctab.blue:hover:after {
   /* should have same color as tab background */
   border-bottom-color: #afb8d3;
 }
 /* OnClick state */
-.ftab.blue:active {
+.cctab.blue:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -46,13 +46,13 @@
 }
 
 /* RTL */
-.ftab.blue.rtl {
+.cctab.blue.rtl {
   text-shadow: .031em .038em 1px #d5dcf1;
   -webkit-box-shadow: 5px 7px 1px #d5dcf1;
   -moz-box-shadow: 5px 7px 1px #d5dcf1;
   box-shadow: 5px 7px 1px #d5dcf1;
 }
-.ftab.blue.rtl:active {
+.cctab.blue.rtl:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
