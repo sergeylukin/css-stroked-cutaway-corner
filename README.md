@@ -1,10 +1,15 @@
 Demo
-====================
+====
 
 http://sergeylukin.com/css-stroked-cutaway-corner
 
+Screenshot
+==========
+
+![tabs](https://raw.github.com/sergeylukin/css-stroked-cutaway-corner/master/img/screen-tabs.jpg)
+
 Usage
---------------------
+-----
 
 LTR tab in default theme:
 
@@ -35,15 +40,14 @@ RTL tab, "Blue" theme:
 etc.
 
 Author
---------------------
+------
 
 **Sergey Lukin**
 
-+ http://twitter.com/sergey_lukin
 + http://github.com/sergeylukin
 
 License
---------------------
+-------
 
 This is free and unencumbered software released into the public domain.
 
